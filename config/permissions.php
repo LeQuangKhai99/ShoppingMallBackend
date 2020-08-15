@@ -1,0 +1,61 @@
+<?php
+return [
+    'access'=> [
+        'category'=>[
+            'list'=>'category_list',
+            'add'=>'category_add',
+            'update'=>'category_update',
+            'delete'=>'category_delete'
+        ],
+        'menu'=>[
+            'list'=>'menu_list',
+            'add'=>'menu_add',
+            'update'=>'menu_update',
+            'delete'=>'menu_delete'
+        ],
+        'product'=>[
+            'list'=>'product_list',
+            'add'=>'product_add',
+            'update'=>'product_update',
+            'delete'=>'product_delete'
+        ],
+        'slider'=>[
+            'list'=>'slider_list',
+            'add'=>'slider_add',
+            'update'=>'slider_update',
+            'delete'=>'slider_delete'
+        ],
+        'setting'=>[
+            'list'=>'setting_list',
+            'add'=>'setting_add',
+            'update'=>'setting_update',
+            'delete'=>'setting_delete'
+        ],
+        'user'=>[
+            'list'=>'user_list',
+            'add'=>'user_add',
+            'update'=>'user_update',
+            'delete'=>'user_delete'
+        ],
+        'role'=>[
+            'list'=>'role_list',
+            'add'=>'role_add',
+            'update'=>'role_update',
+            'delete'=>'role_delete'
+        ],
+        'permission'=>[
+            'list'=>'permission_list',
+            'add'=>'permission_add',
+            'update'=>'permission_update',
+            'delete'=>'permission_delete'
+        ],
+        'order'=>[
+            'list'=>'order_list',
+            'detail'=>'order_detail',
+            'update'=>'order_update',
+            'delete'=>'order_delete'
+        ],
+
+    ],
+]
+?>
